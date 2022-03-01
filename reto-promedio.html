@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Geometrica</title>
+</head>
+<body>
+  <header>
+    <h1>Media Geometrica</h1>
+  </header>
+  <section>
+    <h2>Caculemos la media geometrica</h2>
+    <form>
+      <label for="inputMedia">Ingresa tu lista de datos uno por uno</label>
+      <input type="number" id="inputMedia"/>
+
+      <button type="button" onclick="addItem()">Add Item</button>
+      <button type="button" onclick="calcularMediaGeometrica()">Calculate Media Geometrica</button>
+
+      <p id="currentList"></p>
+      <p id="result"></p>
+    </form>
+  </section>
+  <script src="./reto-promedio.js"></script>
+</body>
+</html>
