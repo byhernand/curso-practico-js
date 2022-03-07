@@ -19,5 +19,5 @@ function calcularPromedio() {
 
   const promedioLista = sumaLista / list.length;
 
-  result.innerText = promedioLista;
+  result.innerText = `El promedio es ${promedioLista}`;
 }
